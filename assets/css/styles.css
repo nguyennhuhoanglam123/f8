@@ -1,0 +1,313 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+/*
+1.vi tri
+2.kich thuoc (width, height )
+3.mau sac
+4.kieu dang( kieu chu, hinh tron,hinh vuon)
+*/
+#main{
+
+}
+#header{
+ height: 46px; 
+ background-color: black;
+ position: fixed;
+ top: 0;
+ right:0;
+ left:0;
+}
+#slider{
+/*min-height: 500px;
+background-color: #333;*/
+margin: 46px;
+padding-top: 46%;
+background: url('/assets/img/HI.jpg') top center / cover no-repeat ;
+}
+#ti-angle-down{
+    font-size: 10px;
+    margin-bottom: 45px;
+}
+
+#slider .text-content{
+position: absolute;
+bottom: 20px;
+color:#fff;
+width: 100%;
+text-align: center;
+}
+#slider .text-heding{
+ font-weight: 700px;
+    font-size: 24px;
+}
+#slider .text-des{
+    font-size: 15px;
+   
+    
+}
+
+#conten{
+
+}
+
+#conten .tong-quan{
+padding: 64px 0;
+
+margin-left: 100px;
+margin-right: 100px;
+font-size: x-large;
+}
+
+#conten .tieu-de{
+    font-weight: 500;
+    text-align: center;  
+    font-size: 30px;
+    letter-spacing: 4px;
+    
+}
+#conten .ghi-chu{
+    font-size:small;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;   /* chu nghien*/ 
+    opacity: 0.6;       /* lam mo chu*/
+}
+
+#conten .ghi-bai{
+margin-top: 25px;
+font-size: 15px;
+text-align: justify;     /* cang deu chu */
+line-height: 1.6;     /* gian cach chu*/
+
+}
+
+#conten .anh1{
+   
+    float: left;
+    width: 33.333%;
+
+}
+
+.anh{
+    margin-top: 48px;
+    text-align: center;
+}
+#conten .tenanh{
+    font-size: 15px;
+   
+}
+#conten .suaanh{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4%;
+}
+.clear{
+    clear: both;
+}
+
+.alo{
+background-color:#000;
+
+}
+.mautrang{
+    color:#fff;
+}
+.khunghinh{
+    background-color: #fff;
+    margin-top: 40px;
+}
+.khunghinh li{
+    padding: 4px 16px; 
+    border-bottom: 1px solid #ccc;
+}
+.abc{
+    margin-top:32px ;  
+    margin-right: -8px;
+    margin-left: -8px;
+    padding-bottom: 50px;
+}
+.anhcon1{
+float: left;
+width: 33.3333%;
+padding: 0 8px;
+
+}
+
+.img{
+   width: 100%;
+   display: block;
+}
+.img:hover{
+    opacity: 0.1;
+}
+.body1{
+background: #fff;
+font-size: 15px;
+text-align: center;
+
+}
+.body2{
+    font-weight: 700;
+}
+.body3{
+    margin-top: 15px;
+}
+.dody4{
+    margin-top: 15px;
+}
+.linkanh1{
+ color: #fff;
+ background-color: #000;
+ text-decoration: none;
+ padding: 11px 30px;
+ display: inline-block;
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+.linkanh1:hover{
+color: #000;
+background-color: #ccc;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ynho2{
+    background: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100% - 32px);
+}
+.yho1 {
+    font-size: 30px;
+    color: #fff;
+    justify-content: center;
+    align-items: flex-start;
+    /* display: flex; */
+    display: grid;
+    height: 120px;
+    background: #009688;
+}
+.ynho3body {
+    padding: 16px;
+    display: table-caption;
+    font-size: 20px;
+    padding: 10px;
+}
+#pay {
+    background: aquamarine;
+    width: 100%;
+}
+#pay:hover{
+    background-color: aqua;
+}
+.X{
+position: absolute;
+right: 0;
+top: 0;
+color: #fff;
+padding: 16PX;
+cursor: pointer;
+}
+.X:hover{
+    background-color: aquamarine;
+}
+.close{
+    font-size: 16px;
+    padding: 10px;
+    text-align: right;
+}
+a{
+    color: red;
+}
+#footer {
+
+}
+
+#nav{
+
+} 
+ 
+#nav li a{
+
+text-decoration: none;
+line-height: 46px;
+padding: 0 24px;
+display: inline-block;
+}   
+#nav > li >a{
+    color: white;
+    text-transform: uppercase;
+    
+}
+#nav >li:hover> a{
+    color: black;
+    background-color: blue;
+    
+}
+#nav .subnav li:hover{
+    color: black;
+    background-color: blue; 
+}
+#header .search-btn{
+    float: right;
+}
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+}
+#nav > li{
+display: inline-block;
+position: relative;
+
+}
+#nav .subnav{
+   /* display: none; */
+   position: absolute;
+   background-color: #ccc;
+   top:100%;
+   left: 0%;
+   box-shadow: 0 0 10px rgba(3, 3, 3, 0.3);
+   display: none;
+}
+#nav{
+    display: inline-block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav .subnav a{
+    color: black;
+   font-size: 0.9rem;
+}
+#nav .subnav{
+    list-style: none;
+}
+#facebook a{
+    text-decoration: none;
+    color: #000;
+}
+#facebook a:hover{
+    background-color: red;
+}
+#facebook{
+    text-align: center;
+    
+}
